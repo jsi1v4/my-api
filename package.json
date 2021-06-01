@@ -1,0 +1,10 @@
+{
+  "name": "my-api",
+  "version": "0.1",
+  "description": "My personal api, planning app backend and some other things.",
+  "main": "src/index.ts",
+  "repository": "https://github.com/jsi1v4/my-api.git",
+  "author": "Jsi1v4 <me@jsi1v4.dev>",
+  "license": "MIT",
+  "private": false
+}
