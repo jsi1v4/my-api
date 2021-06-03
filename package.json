@@ -6,5 +6,8 @@
   "repository": "https://github.com/jsi1v4/my-api.git",
   "author": "Jsi1v4 <me@jsi1v4.dev>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "engines": {
+    "node": "14.x"
+  }
 }
