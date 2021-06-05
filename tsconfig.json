@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "target": "es6",
+    "baseUrl": "src/",
     "module": "commonjs",
     "outDir": "dist/out-tsc/",
     "sourceMap": true,
@@ -13,14 +14,6 @@
     "isolatedModules": true,
     "noImplicitAny": false
   },
-  "include": [
-    "src/**/*.ts",
-    "src/**/*.json"
-  ],
-  "exclude": [
-    ".git",
-    "node_modules",
-    "src/**/*.test.ts",
-    "src/**/*.spec.ts"
-  ]
+  "include": ["src/**/*.ts", "src/**/*.json"],
+  "exclude": [".git", "node_modules", "src/**/*.test.ts", "src/**/*.spec.ts"]
 }
