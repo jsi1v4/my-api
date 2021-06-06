@@ -10,7 +10,12 @@
   "engines": {
     "node": "14.x"
   },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
   "devDependencies": {
+    "@types/node": "^15.12.1",
+    "@types/node-fetch": "^2.5.10",
     "@vercel/node": "^1.11.0"
   }
 }
