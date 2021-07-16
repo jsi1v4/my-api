@@ -26,7 +26,9 @@ async function handler(req: Request, res: Response) {
   const resume = await getResume();
   const links = await getLinks();
 
-  res.status(200).json({ name: `I'm Jose Silva...`, resume, links });
+  res
+    .status(200)
+    .json({ name: `I'm José Paulo (like 'Joseph')...`, resume, links });
 }
 
 export default handler;
