@@ -1,8 +1,8 @@
 {
   "name": "my-api",
   "version": "0.1",
-  "description": "My personal api, planning app backend and some other things.",
-  "main": "src/index.ts",
+  "description": "My personal api and some other things.",
+  "main": "src/main.ts",
   "repository": "https://github.com/jsi1v4/my-api.git",
   "author": "Jsi1v4 <git@jsi1v4.com>",
   "license": "MIT",
@@ -10,12 +10,26 @@
   "engines": {
     "node": "14.x"
   },
+  "scripts": {
+    "dev": "nodemon",
+    "build": "webpack build --config build/webpack.dev.js",
+    "build:prod": "webpack build --config build/webpack.prod.js"
+  },
   "dependencies": {
+    "dotenv": "^10.0.0",
     "node-fetch": "^2.6.1"
   },
   "devDependencies": {
     "@types/node": "^15.12.1",
     "@types/node-fetch": "^2.5.10",
-    "@vercel/node": "^1.11.0"
+    "nodemon": "^2.0.15",
+    "ts-loader": "^9.2.6",
+    "ts-node": "^10.4.0",
+    "tsconfig-paths": "^3.12.0",
+    "tsconfig-paths-webpack-plugin": "^3.5.2",
+    "typescript": "^4.5.2",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "webpack-merge": "^5.8.0"
   }
 }
