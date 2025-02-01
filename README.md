@@ -1,3 +1,5 @@
-# Jsi1v4 Personal Api
+# Jsi1v4 Personal Api (WIP)
 
-My personal api, planning app backend and some other things."
+API REST com **Java**, **Spring Boot** e **PostgreSQL**, possui autenticação e funções para gerenciar meu aplicativo de planejamento pessoal.
+
+> Realizando refactoring para Java [aqui](https://github.com/jsi1v4/my-api/tree/refact/java)
